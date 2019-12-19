@@ -1,0 +1,45 @@
+.container{
+    max-width: 2000px !important;
+    border: 1px solid #CCC;
+}
+
+.promo {
+    height: 1032px;
+    background-color: darkcyan;
+    background-image: url(../img/promo/promo_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fly {
+    height: 614px;
+}
+
+.features {
+    height: 600px;
+    background-color: darkcyan;
+}
+
+.generation {
+    height: 656px;
+}
+
+.drone {
+    height: 870px;
+    background-color: darkcyan;
+}
+
+.journey {
+    height: 1190px;
+    background-color: darkcyan;
+    background-image: url(../img/journey/journey.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer {
+    height: 540px;
+    background-color: darkcyan;
+}
