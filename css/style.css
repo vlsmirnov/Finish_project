@@ -1,11 +1,33 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 92px !important;
+    line-height: 102px !important;
+}
+
+h2{
+    font-size: 60px !important;
+    font-weight: 700 !important;
+}
+
+h3{
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    line-height: 60px !important;
+}
+
+.colortext{
+    color: #ff343d;
+}
+
 .container{
     max-width: 2000px !important;
-    border: 1px solid #CCC;
 }
 
 .promo {
     height: 1032px;
-    background-color: darkcyan;
     background-image: url(../img/promo/promo_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -14,32 +36,250 @@
 
 .fly {
     height: 614px;
+    
+}
+
+.tap_to_fly {
+    background-image: url(../img/fly/tap_to_fly.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 614px;
+}
+
+.tap_to_fly h2{
+    margin-top: 259px;
+    margin-left: 204px;
+    letter-spacing: 0px;
+    line-height: 60px;
+}
+
+.tap_to_fly_text{
+    color: #92a1a5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 11px;
+    margin-left: 206px;
+}
+
+.fly_higher{
+    background-image: url(../img/fly/fly_higher.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 614px;
+    color: #ffffff;
+}
+
+.fly_higher h2{
+    margin-top: 247px;
+    margin-left: 75px;
+    letter-spacing: 0px;
+    line-height: 72px;
 }
 
 .features {
     height: 600px;
-    background-color: darkcyan;
+    background-color: #ffffff;
 }
+
+
+.features_title{
+    height: 50%;
+}
+
+.features_item{
+    text-align: center;
+    height: 50%;
+}
+
+.features_image{
+    height: 91px;
+}
+
+.features_text{
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0px;
+
+}
+
+
 
 .generation {
     height: 656px;
 }
 
+.generation1{
+    background-image: url(../img/generation/generation1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 656px;
+}
+
+
+
+.generation2{
+    background-image: url(../img/generation/generation2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 656px;
+    color: #ffffff;
+}
+
+.generatin2_item{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.generation_button{
+    width: 182px;
+    height: 57px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 29px;
+    border: 2px solid #3b3b3b;
+    margin-top: 49px;
+}
+
+.generation_button:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.generation_button:focus{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    box-shadow: none;
+}
+
 .drone {
     height: 870px;
-    background-color: darkcyan;
+    background-color: #ffffff;
+}
+
+.drone1{
+    height: 870px;
+}
+
+.drone1_item{
+    margin-left: 200px;
+}
+
+.dron1_item h1{
+    color: #232323;
+    font-weight: 400;
+}
+
+.drone_button{
+    width: 182px;
+    height: 57px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 29px;
+    border: 2px solid #eff2f6;
+    margin-top: 62px;
+}
+
+.drone_button:hover{
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.drone_button:focus{
+    color: #000000;
+    border: 2px solid #000000;
+    box-shadow: none;
+}
+
+.drone_button:active{
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+
+
+.drone2{
+    height: 870px;
+    
+}
+
+.drone_image{
+    margin-right: -15px;
 }
 
 .journey {
     height: 1190px;
-    background-color: darkcyan;
     background-image: url(../img/journey/journey.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+.journey_item{
+    margin-top: 779px;
+    text-align: center;
+}
+
+.journey_item h1{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.journey_button{
+    width: 182px;
+    height: 57px;
+    color: #318f76;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 29px;
+    border: 2px solid transparent;
+    margin-top: 56px;
+}
+
+.journey_button:hover{
+    color: #318f76;
+    background-color: #3b3b3b;
+    border: solid transparent;
+}
+
+.journey_button:focus{
+    color: #318f76;
+    background-color: #3b3b3b;
+    border: solid transparent;
+    box-shadow: none;
+}
+
+
+
 .footer {
     height: 540px;
-    background-color: darkcyan;
+    background-image: url(../img/footer/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer1{
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.footer_text{
+    color: #92a1a5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 34px;
 }

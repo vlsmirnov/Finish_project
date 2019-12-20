@@ -8,36 +8,32 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous">
+        </script>
 </head>
 
 <body>
 
-    <!-- <div class="container-fluid">
-
+    <div class="container-fluid">
         <div class="row promo">
-            <div class="col-6 logo">
-                <div class="logo_img">
-                    <img src="img/promo/promo_logo.png" alt="">
-                </div>
+            <div class="col-12 menu">
+                <nav class="navbar navbar-dark d-flex bg-transporent">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/promo/promo_logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                    <div class="mr-auto phone">
+                        <img src="img/promo/promo_phone.png" alt="">
+                        <a class="logo_phone_number" href="tel:01234567890">+48 604 300 500</a>
+                    </div>
 
-                <div class="logo_phone">
-                    <img src="img/promo/promo_phone.png" alt="">
-                    <a class="logo_phone_number" href="tel:01234567890">+48 604 300 500</a>
-                </div>
-
-            </div>
-
-            <div class="col-6 menu">
-                <nav class="navbar navbar-dark bg-transporent d-flex justify-content-end">
                     <a class="navbar-item" href="#">BYE NOW</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                         aria-expanded="false" aria-controls="navbarContent">
@@ -54,48 +50,43 @@
                 </nav>
             </div>
 
-            <div class="col-12 phantom">
-                <h1>Phantom</h1>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur repellendus consequuntur deserunt.
-            </div>
+            <div class="col-12 promo_title">
 
+            </div>
         </div>
 
         <div class="row fly">
-
             <div class="col-md-4 tap_to_fly">
-                <h1>Tap to fly</h1>
-                Lorem ipsum dolor sit amet.
+                <h2>Tap to fly</h2>
+                <span class="tap_to_fly_text">Lorem ipsum dolor sit amet.</span>
             </div>
 
             <div class="col-md-8 fly_higher">
-                <h1>Fly higher than befoge</h1>
+                <h2>Fly higher <br>than befoge</h2>
             </div>
-
         </div>
 
-        <div class="row justify-content-center features">
-            <div class="col-12 features_title">
-                <h1>Features</h1>
+        <div class="row d-flex justify-content-center features">
+            <div class="col-12 d-flex justify-content-center align-items-center features_title">
+                <h3>Features</h3>
             </div>
 
-            <div class="col-2 new_tehnology">
-                <img src="img/features/New_technology.png" alt="">
-                New_technology
+            <div class="col-2 features_item">
+                <img src="img/features/New_technology.png" alt="" class="features_image">
+                <div class="features_text">New technology</div>
             </div>
-            <div class="col-2 good_signal">
-                <img src="img/features/Good_signal.png" alt="">
-                Good signal
+            <div class="col-2 features_item">
+                <img src="img/features/Good_signal.png" alt="" class="features_image">
+                <div class="features_text">Good signal</div>
             </div>
-            <div class="col-2 easy_to_use">
-                <img src="img/features/Easy_to_use.png" alt="">
-                Easy to use
+            <div class="col-2 features_item">
+                <img src="img/features/Easy_to_use.png" alt="" class="features_image">
+                <div class="features_text">Easy to use</div>
             </div>
-            <div class="col-2 visibility">
-                <img src="img/features/Visibility.png" alt="">
-                Visibility
+            <div class="col-2 features_item">
+                <img src="img/features/Visibility.png" alt="" class="features_image">
+                <div class="features_text">Visibility</div>
             </div>
-
         </div>
 
         <div class="row generation">
@@ -103,64 +94,45 @@
 
             </div>
 
-            <div class="col-6 generation2">
-                <h1>New generation of vision.</h1>
+            <div class="col-6 d-flex justify-content-center align-items-center generation2">
+                <div class="generatin2_item">
+                    <h1>New <span class="colortext">generation<br></span>of vision<span class="colortext">.</span></h1>
+                    <button type="button" class="btn btn-transporent generation_button">view more</button>
+                </div>
             </div>
-
         </div>
 
         <div class="row drone">
-            <div class="col-6 drone1">
-                <h1>New generation of flying.</h1>
+            <div class="col-6 d-flex justify-content-center align-items-center drone1">
+                <div class="dron1_item">
+                    <h1>New <span class="colortext">generation<br></span>of flying<span class="colortext">.</span></h1>
+                    <button type="button" class="btn btn-transporent drone_button">view more</button>
+                </div>
             </div>
 
-            <div class="col-6 drone2">
-                <img src="img/drone/drone.png" alt="">
+            <div class="col-6 d-flex justify-content-end align-items-center drone2">
+                <img src="img/drone/drone.png" alt="" class="drone_image">
             </div>
         </div>
 
         <div class="row journey">
-            <div class="col-12 journey1">
-
+            <div class="col-12 d-flex justify-content-center journey1">
+                <div class="journey_item">
+                    <h1>Start your journey.</h1>
+                    <button type="button" class="btn btn-transporent journey_button">view more</button>
+                </div>
             </div>
         </div>
 
         <div class="row footer">
-
-
-        </div> -->
-
-
-        <div class="container">
-            <div class="row promo">
-
+            <div class="col-12 m-auto footer1">
+                <img src="img/footer/footer_logo.png" alt="" class="footer_logo">
+                
+                <div class="footer_text">&copy; 2016 Copyright. All rights reserved by Symu.co</div>
             </div>
-
-            <div class="row fly">
-
-            </div>
-
-            <div class="row features">
-
-            </div>
-
-            <div class="row generation">
-
-            </div>
-
-            <div class="row drone">
-
-            </div>
-
-            <div class="row journey">
-
-            </div>
-
-            <div class="row footer">
-
-            </div>
-            
         </div>
+
+    </div>
 
 
 
